@@ -16,11 +16,10 @@ function RegisterForm() {
 
   const senderName = "RavalBit";
   const senderEmail = "ravalbit@gmail.com";
-  const recipientEmails = ["mahmadali3180@gmail.com", "mahmadaliwork3180.com"];
-  // const recipientEmails = [
-  //   "muhammadasadsaeed9439@gmail.com",
-  //   "Eshafayyaz212@gmail.com",
-  // ];
+  const recipientEmails = [
+    "muhammadasadsaeed9439@gmail.com",
+    "Eshafayyaz212@gmail.com",
+  ];
   const serviceID = "service_ysc9ynw";
   const templateID = "template_vqv2vxp";
   const publicKey = "cmb8dUqvncj9y3vlM";
