@@ -2,9 +2,9 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="items-center text-center w-full bg-gray-800 pt-4 px-2 sticky bottom-0">
-      <div className="flex items-center justify-evenly px-6 pb-6 text-gray-500 text-xs sm:flex-col sm:items-start sm:text-left">
-        <div className="flex gap-4 mx-auto flex-wrap">
+    <section className="items-center text-center w-full bg-gray-800 pt-4 px-2 sticky bottom-0">
+      <div className="flex items-center placeholder:justify-evenly px-6 pb-6 text-gray-500 text-xs sm:flex-col sm:items-start xs:text-center">
+        <div className="flex gap-4 mx-auto flex-wrap items-center justify-center">
           <p className="">
             Instagram:{" "}
             <a
@@ -32,10 +32,10 @@ function Footer() {
       <div className="py-2">
         <p className="text-[10px] font-medium text-gray-400">
           Designed and Developed by{" "}
-          <span className="font-bold text-blue-400 text-[]10px">Ravalbit</span>
+          <span className="font-bold text-blue-400 text-[10px]">Ravalbit</span>
         </p>
       </div>
-    </div>
+    </section>
   );
 }
 

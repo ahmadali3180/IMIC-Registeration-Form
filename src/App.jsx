@@ -1,12 +1,14 @@
 import react from "react";
 import "./index.css";
-import { Header, RegisterForm, Footer } from "./components";
+import { Header, RegisterForm, Footer, Contact } from "./components";
 
 function App() {
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Header />
       <RegisterForm />
+      <Contact />
+      <Footer />
     </div>
   );
 }
