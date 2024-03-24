@@ -89,10 +89,14 @@ function RegisterForm() {
           </div>
         )}
         {!status && error.length > 1 && (
-          <div className="bg-pink-200 border-red-400 border-2 rounded-lg w-1/2 mx-auto text-center py-6 text-red-500">
+          <div className="bg-red-200 border-red-400 border-2 rounded-lg w-1/2 mx-auto text-center py-6 text-red-500">
             Failed to Register. Please Try Later
           </div>
         )}
+
+        <div className="bg-orange-200 border-orange-500 border-2 rounded-lg  mx-auto text-center py-8 text-orange-600 px-6 mb-8">
+          Registrations Closed!
+        </div>
 
         <form
           action="sumbit"
@@ -173,8 +177,10 @@ function RegisterForm() {
             />
           </div>
           <button
+            id="registerButton"
             type="submit"
-            className="mt-8 px-6 py-2 bg-primary text-white font-semibold rounded-full max-w-xs mx-auto"
+            disabled
+            className={`mt-8 px-6 py-2 bg-primary text-white font-semibold rounded-full max-w-xs mx-auto disabled:bg-gray-500 disabled:text-gray-200 disabled:hover:cursor-not-allowed`}
           >
             Register
           </button>
